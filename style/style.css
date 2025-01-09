@@ -34,6 +34,7 @@
     font-size: 35px;
     font-weight: bold;
     color: #181818;
+    margin: 30px;
 }
 .section-description {
     font-size: 18px;
@@ -182,4 +183,30 @@ main section {
 }
 .resume-btn {
     margin-top: 50px;
+}
+/* footer styles */
+.footer-description {
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column {
+    width: 50%;
+}
+footer input[type="text"],input[type="email"], textarea {
+    height: 64px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #757575;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
