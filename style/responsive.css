@@ -1,0 +1,97 @@
+@media screen and (max-width:576px) {
+    .skill-container {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+    
+        }
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            /* Prevent horizontal scroll */
+        }
+        .header {
+            background-image: url("../images/header_bg.png");
+            background-repeat: no-repeat;
+            background-position: bottom right;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+            text-align: center;
+            margin: 0 0px;
+            padding-top: 10px;
+    
+        }
+        
+        nav ul {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+        .btn-primary {
+            margin-bottom: 20px;
+        }
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 0px 0 0px;
+            flex-direction: column;
+        }
+        .banner-content {
+            max-width: 500px;
+            /* margin-top: 150px; */
+            margin: 150px auto 100px;
+            padding: 20px 10px;
+        }
+        .banner-portfolio-img {
+            min-width: 100%;
+        }
+        .container {
+            max-width: 100%;
+            /* Ensure elements do not exceed viewport width */
+            overflow: hidden;
+        }
+        .about {
+            border-radius: 10px;
+            padding: 30px 55px;
+            text-align: center;
+            margin-top: 120px;
+            margin-left: auto;
+            margin-right: auto;
+                }
+        .about-items {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 20px;
+        
+        }
+        .resume-conteiner {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            padding: 20px 30px;
+        }
+        footer {
+            padding: 30px 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 100px;
+            width: 100%;
+        }
+        
+        .footer-column {
+            width: 75%;
+        }
+
+    
+}
